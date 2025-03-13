@@ -1,8 +1,8 @@
 import java.util.*;
 
- class ArrayOperations {
+class ArrayOperations {
 
-        public static int[] filterEvenIndexOddValue(int[] array) {
+    public static int[] filterEvenIndexOddValue(int[] array) {
         List<Integer> result = new ArrayList<>();
         for (int i = 0; i < array.length; i += 2) {
             if (array[i] % 2 != 0) {
